@@ -1,0 +1,48 @@
+/* Basic Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #232F3E;
+}
+
+/* Box With Flex */
+.Box {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* numbers */
+.Box .numbers {
+    background: linear-gradient(180deg,#f67c1b 0,#e15500);
+    border-radius: 50%;
+    padding: 25px 50px;
+    box-shadow: 4px 3px rgba(0, 0, 0, 0.308);
+    color: white;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+/* Button */
+.btn button {
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(180deg,#f67c1b 0,#e15500);
+    border-radius: 2px;
+    padding: 13px 50px;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin: 30px 10px;
+}
+
+.btn button:hover {
+    background: linear-gradient(180deg,rgba(246, 126, 27, 0.902) 0,rgba(225, 86, 0, 0.929));
+}
